@@ -1,0 +1,8 @@
+body{
+    background-color: white;
+}
+.header-section-special{
+    color: white;
+    background-color: black;
+    display: flex;
+}
