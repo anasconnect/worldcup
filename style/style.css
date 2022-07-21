@@ -38,24 +38,52 @@ h1{
 }
 
 .section-2{
-    
+    display: flex;
 }
 #updates-blogs-matches{
-    width: 250px;
     background-color: #161616;
     border-radius: 30px;
     margin: 30px 20px;
-    padding: 30px;
+    padding: 20px 0px;
+    padding-right: 30px;
+    height: 200px;
 }
-#updates-blogs-matches a{
-    background-color: white;
+
+nav li{ 
+    list-style: none;
+    padding: 5px;
+}
+li button{
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+li a{
+
+    font-size: 16px;
+    font-weight: 400;
     color: #161616;
     text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 10px;
-    margin: 50px 20px;
+}
+.special-button{
+    background-color: #DD0000;
+}
+.container{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+}
+.container img{
+    width: 250px;
+}
+.blogs-together{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px 20px;
 }
 footer{
+    margin-top: 30px;
+    width: 100%;
     background-color: #161616;
     color: white;
     padding: 30px 100px;
